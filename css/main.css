@@ -1,3 +1,6 @@
+
+    /*main page css*/
+
 html, body{
     margin: 0;
 }
@@ -9,19 +12,19 @@ header{
     margin-bottom: 0px;
 }
 
-ul{
+nav ul{
     display: inline-block;
     margin: 0;
     max-width: 60%;
 }
 
-li{
+nav li{
     padding-top: 7px;
     display: inline-block; 
     padding-left: 40px;
 }
 
-li a{
+nav li a{
     text-decoration: none;
     color: black;
 }
@@ -181,13 +184,17 @@ footer{
     padding-right: 122px;
 }
 
+footer p{
+    float: left;
+}
+
 .footer-icons{
     float: right;
     padding-left: 20px;
     padding-bottom: 40px;
 }
 
-/*about page css*/
+    /*about page css*/
 
 .nav-2{
     height: 50px;
@@ -283,3 +290,121 @@ form .button-1{
     color: white;
 }
 
+
+
+    /*playlist page css*/
+
+.playlist-container{
+    margin-top: 90px;
+    width: 1318px;
+    margin-left: 122px;
+    margin-bottom: 125px;
+}
+
+
+
+    /*left block*/
+
+.left-block{
+    background-color: #a8dfff;
+    width: 470px;
+    height: 470px;
+    float: left;
+}
+
+.playlist-container h4{
+    margin-bottom: 50px;
+    margin-top: 85px;
+}
+
+
+    /*right block madness*/
+
+.right-block{
+    background-color: #9effda;
+    width: 656px;    
+    height: 500px;
+    display: inline-block;
+    margin-left: 70px;
+    padding-top: 10px;
+}
+
+.right-block h5{
+    padding-right: 70px;
+}
+
+.right-block li{
+    display: inline-block;
+    padding-bottom: 0px;
+}
+
+
+    /*ul for playlist names*/
+
+.headings{
+    padding: 0;
+    margin-bottom: 40px;
+}
+
+
+    /*ul for attributes headings*/
+
+.attributes{
+    padding-left: 0;
+    margin-left: 20px;
+}
+
+
+    /*li for attributes headings*/
+    
+.head-num{
+    padding-right: 40px;
+}
+
+.head-song{
+    padding-right: 120px;
+}
+
+.head-album{
+    padding-right: 70px;
+}
+
+.head-dur{
+    padding-right: 40px;
+}
+
+
+    /*ul for song attributes*/
+
+.songs-ul{
+    height: 60px;
+    padding: 0;
+    margin-left: 20px;
+}
+
+
+    /*li for song attributes*/
+
+.num{
+    padding-right: 40px;
+}
+
+.song{
+    padding-right: 120px;
+}
+
+.artist{
+    
+}
+
+.album{
+    padding-right: 70px;
+}
+
+.dur{
+    padding-right: 40px;
+}
+
+.dots{
+
+}
