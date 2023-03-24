@@ -187,9 +187,99 @@ footer{
     padding-bottom: 40px;
 }
 
-.about{
-    margin-top: 175px;
-    width: 659px;
-    margin-left: 122px;
-    margin-bottom: 175px;
+/*about page css*/
+
+.nav-2{
+    height: 50px;
+    width: 1440px;
+    padding-left: 50px;
+    padding-top: 25px;
+    padding-bottom: 60px;
+    background-color: #d1d1d1;
+    margin-bottom: 90px;
 }
+
+.nav-2 input{
+    border-radius: 25px;
+    float: right;
+    height: 50px;
+    padding: auto;
+    width: 255px;
+    margin-right: 50px;
+}
+
+.about-container{
+    margin-top: 175px;
+    width: 1318px;
+    margin-left: 122px;
+    margin-bottom: 125px;
+}
+
+.about{
+    width: 583px;
+    background-color: rgb(214, 255, 255);
+    margin-right: 30px;
+    float: left;
+}
+
+.get-in-touch{
+    width: 583px;
+    background-color: rgb(198, 253, 212);
+    display: inline-block;
+    padding: 30px;
+}
+
+form input{
+    border-radius: 25px;
+    height: 50px;
+    margin-top: 25px;
+    width: 100%;
+    margin-right: 30px;
+    padding: 10px;
+}
+
+form select{
+    border-radius: 25px;
+    height: 50px;
+    margin-top: 25px;
+    width: 100%;
+    margin-right: 30px;
+    padding: 10px;
+}
+
+form textarea{
+    border-radius: 25px;
+    height: 100px;
+    margin-top: 25px;
+    width: 100%;
+    margin-right: 30px;
+    padding: 10px;
+}
+
+form .button-1{
+    float: right;
+    margin-right: 0;
+    margin-top: 30px;
+    margin-bottom: 0px;
+    width: 225px;
+}
+
+.about p{
+    margin-bottom: 90px;
+    display: inline-block;
+}
+
+.contact{
+    margin-right: 10px;
+    margin-left: 5px;
+    margin-bottom: 0px;
+}
+
+.location{
+    height: 200px;
+    width: 100%;
+    background: #000;
+    margin-top: -51px;
+    color: white;
+}
+
