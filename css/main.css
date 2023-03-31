@@ -3,13 +3,16 @@
 
 html, body{
     margin: 0;
+    background-color: #1b1c20;
 }
 
 header{
     height: 755px;
     width: 100%;
-    background-color: #d1d1d1;
     margin-bottom: 0px;
+    background-image: url("../assets/hero/mac2.jpg");
+    background-position: bottom;
+    background-size: fill;
 }
 
 nav ul{
@@ -19,9 +22,10 @@ nav ul{
 }
 
 nav li{
-    padding-top: 7px;
+    padding-top: 14px;
     display: inline-block; 
     padding-left: 40px;
+    color: black;
 }
 
 nav li a{
@@ -33,13 +37,19 @@ nav{
     height: 50px;
     width: 100%;
     padding-left: 50px;
-    padding-top: 25px;
+    padding-top: 23px;
     padding-bottom: 60px;
-    background-color: #d1d1d1;
 }
 
 .logo{
     float: left;
+    width: 300px;
+}
+
+nav h3{
+    width: 150px;
+    display: inline-block;
+    height: 40px;
 }
 
 nav input{
@@ -61,6 +71,7 @@ nav input{
 .hero{
     padding-left: 100px;
     padding-top: 150px;
+    color: white;
 }
 
 .button-1{
@@ -82,7 +93,6 @@ nav input{
 
 .row-1{
     width: 100%;
-    background-color: #d1d1d1;
     height: 75px;
     margin: 0;
     padding: 0;
@@ -101,21 +111,23 @@ nav input{
 
 
 .ytb-video{
-    background-color: gray;
+    background-color: rgb(148, 148, 148);
     height: 390px;
     width: 50%;
     z-index: 1;
     margin-top: -60px;
+    padding: 0;
 }
 
 .featured-artists{
-    background-color: #dfdfdf;
+    background-color: rgba(119, 119, 119, 0.8);
     height: 560px;
     width: 50%;
     margin-top: -60px;
     margin-left: -140px;
     padding-left: 170px;
     padding-top: 30px;
+    color: white;
 }
 
 .right-arrow{
@@ -133,6 +145,7 @@ nav input{
 }
 
 .container-2{
+    color: white;
     width: 100%;
     margin: 0;
     padding-right: 122px;
@@ -154,8 +167,8 @@ nav input{
 
 .albums{
     background-color: #b9b9b9;
-    width: 277px;
-    height: 277px;
+    width: 320px;
+    height: 320px;
     margin-bottom: 30px;
     margin-right: 2%;
 }
@@ -167,6 +180,7 @@ nav input{
 
 .container-3{
     width: 100%;
+    color: white;
     padding: 0;
     padding-left: 122px;
     padding-right: 122px;
@@ -174,6 +188,7 @@ nav input{
 }
 
 footer{
+    color: white;
     width: 100%;
     padding-left: 122px;
     padding-right: 122px;
@@ -188,6 +203,18 @@ footer p{
     padding-left: 20px;
     padding-bottom: 40px;
 }
+
+.container-2 img{
+    width: 320px;
+    height: 320px;
+}
+
+.container-3 img{
+    width: 320px;
+    height: 320px;
+}
+
+
 
 
 
