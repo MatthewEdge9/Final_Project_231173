@@ -7,7 +7,7 @@ html, body{
 
 header{
     height: 755px;
-    width: 1440px;
+    width: 100%;
     background-color: #d1d1d1;
     margin-bottom: 0px;
 }
@@ -31,7 +31,7 @@ nav li a{
 
 nav{
     height: 50px;
-    width: 1440px;
+    width: 100%;
     padding-left: 50px;
     padding-top: 25px;
     padding-bottom: 60px;
@@ -60,7 +60,7 @@ nav input{
 
 .hero{
     padding-left: 100px;
-    padding-top: 200px;
+    padding-top: 150px;
 }
 
 .button-1{
@@ -81,10 +81,11 @@ nav input{
 }
 
 .row-1{
-    width: 1315px;
+    width: 100%;
     background-color: #d1d1d1;
     height: 75px;
     margin: 0;
+    padding: 0;
 }
 
 .container-1{
@@ -92,38 +93,29 @@ nav input{
     margin-right: 0;
     margin-top: 0;
     margin-bottom: 80px;
-    padding: 0;
-    width: 1440px;
-    height: 560px;
+    padding-left: 122px;
+    padding-right: 122px;
+    width: 100%;
+    height: 500px;
 }
 
-.row-2{
-    width: 1440px;
-    background-color: #d1d1d1;
-    height: 60px;
-    margin: 0;
-    display: inline-block;
-    padding: 0;
-}
 
 .ytb-video{
     background-color: gray;
-    display: inline-block;
     height: 390px;
-    width: 600px;
-    margin-left: 122px;
+    width: 50%;
+    z-index: 1;
+    margin-top: -60px;
 }
 
 .featured-artists{
     background-color: #dfdfdf;
     height: 560px;
-    width: 700px;
-    float: right;
-    margin-top: -390px;
-    margin-right: 122px;
-    padding-left: 137px;
+    width: 50%;
+    margin-top: -60px;
+    margin-left: -140px;
+    padding-left: 170px;
     padding-top: 30px;
-    margin-bottom: 80px;
 }
 
 .right-arrow{
@@ -141,9 +133,10 @@ nav input{
 }
 
 .container-2{
-    width: 1318px;
-    padding: 0;
-    margin-left: 122px;
+    width: 100%;
+    margin: 0;
+    padding-right: 122px;
+    padding-left: 122px;
     height: 426px;
 }
 
@@ -153,8 +146,9 @@ nav input{
 }
 
 .col-4{
-    width: 307px;
+    width: 25%;
     float: left;
+    padding: 0;
 }
 
 
@@ -163,6 +157,7 @@ nav input{
     width: 277px;
     height: 277px;
     margin-bottom: 30px;
+    margin-right: 2%;
 }
 
 .container-3 h4{
@@ -171,16 +166,16 @@ nav input{
 }
 
 .container-3{
-    width: 1318px;
+    width: 100%;
     padding: 0;
-    margin-left: 122px;
-    height: 703px;
+    padding-left: 122px;
+    padding-right: 122px;
+
 }
 
 footer{
-    width: 1318px;
-    margin-left: 122px;
-    margin-right: 122px;
+    width: 100%;
+    padding-left: 122px;
     padding-right: 122px;
 }
 
@@ -194,11 +189,24 @@ footer p{
     padding-bottom: 40px;
 }
 
-    /*about page css*/
+
+
+
+
+
+
+
+
+/*///////////////////////////////////////////////////*/
+  /*about page css*/
+/*///////////////////////////////////////////////////*/
+
+
+    
 
 .nav-2{
     height: 50px;
-    width: 1440px;
+    width: 100%;
     padding-left: 50px;
     padding-top: 25px;
     padding-bottom: 60px;
@@ -217,22 +225,31 @@ footer p{
 
 .about-container{
     margin-top: 175px;
-    width: 1318px;
-    margin-left: 122px;
+    width: 100%;
+    padding-left: 122px;
+    padding-right: 122px;
     margin-bottom: 125px;
 }
 
-.about{
-    width: 583px;
+.block-1{
+    width: 49%;
+    background-color: rgb(198, 253, 212);
+    margin-right: 1%;
+}
+
+.block-2{
+    width: 49%;
     background-color: rgb(214, 255, 255);
+    margin-left: 1%;
+}
+
+.about{
+    width: 100%;
     margin-right: 30px;
-    float: left;
 }
 
 .get-in-touch{
-    width: 583px;
-    background-color: rgb(198, 253, 212);
-    display: inline-block;
+    width: 100%;
     padding: 30px;
 }
 
@@ -266,8 +283,8 @@ form textarea{
 form .button-1{
     float: right;
     margin-right: 0;
-    margin-top: 30px;
-    margin-bottom: 0px;
+    margin-top: 15px;
+    margin-bottom: 15px;
     width: 225px;
 }
 
@@ -291,16 +308,18 @@ form .button-1{
 }
 
 
-
-    /*playlist page css*/
+/*///////////////////////////////////////////////////////*/
+/*playlist page css*/
+/*///////////////////////////////////////////////////////*/
 
 .playlist-container{
-    margin-top: 90px;
-    width: 1318px;
-    margin-left: 122px;
-    margin-bottom: 125px;
+    width: 100%;
+    padding-left: 122px;
+    padding-right: 122px;
+    padding-bottom: 125px;
+    padding-top: 90px;  
+    margin: 0%;
 }
-
 
 
     /*left block*/
@@ -309,27 +328,26 @@ form .button-1{
     background-color: #a8dfff;
     width: 470px;
     height: 470px;
-    float: left;
 }
 
-.playlist-container h4{
-    margin-bottom: 50px;
-    margin-top: 85px;
-}
 
 
     /*right block madness*/
 
 .right-block{
     background-color: #9effda;
-    width: 656px;    
+    width: 67%;    
     height: 500px;
-    display: inline-block;
     margin-left: 70px;
     padding-top: 10px;
 }
 
-.right-block h5{
+.headings{
+    padding: 0;
+    margin-bottom: 40px;
+}
+
+.right-block h4{
     padding-right: 70px;
 }
 
@@ -338,73 +356,52 @@ form .button-1{
     padding-bottom: 0px;
 }
 
-
-    /*ul for playlist names*/
-
-.headings{
-    padding: 0;
-    margin-bottom: 40px;
-}
-
-
-    /*ul for attributes headings*/
-
-.attributes{
-    padding-left: 0;
-    margin-left: 20px;
-}
-
-
-    /*li for attributes headings*/
-    
-.head-num{
-    padding-right: 40px;
-}
-
-.head-song{
-    padding-right: 120px;
-}
-
-.head-album{
+.right-block h5{
     padding-right: 70px;
 }
 
-.head-dur{
-    padding-right: 40px;
-}
+.song
+    {
+        display: grid;
+        grid-template-columns: 1fr 3fr 2fr 2fr 1fr;
+        grid-template-rows: 1fr;
+        grid-template-areas: "number title artist album length";
+        grid-gap: 10px;
+        padding: 10px;
+        border-bottom: 1px solid #000;
+        font-size: 20px;
+    }
+
+    .song p
+    {
+        margin: 0;
+        padding: 6px;
+    }
+
+    .song div p
+    {
+        margin: 0;
+        padding: 0;
+    }
+
+    .song h4
+    {
+        margin: 0;
+        padding: 0;
+    }
+
+    .artist
+    {
+        font-size: 14px;
+    }
+
+    .song_list
+    {
+        width: 100%;
+        height: 600px;
+    }
 
 
-    /*ul for song attributes*/
-
-.songs-ul{
-    height: 60px;
-    padding: 0;
-    margin-left: 20px;
-}
 
 
-    /*li for song attributes*/
 
-.num{
-    padding-right: 40px;
-}
-
-.song{
-    padding-right: 120px;
-}
-
-.artist{
-    
-}
-
-.album{
-    padding-right: 70px;
-}
-
-.dur{
-    padding-right: 40px;
-}
-
-.dots{
-
-}
