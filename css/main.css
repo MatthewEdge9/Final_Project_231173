@@ -165,14 +165,6 @@ nav input{
 }
 
 
-.albums{
-    background-color: #b9b9b9;
-    width: 320px;
-    height: 320px;
-    margin-bottom: 30px;
-    margin-right: 2%;
-}
-
 .container-3 h4{
     padding: 0;
     margin-bottom: 40px;
@@ -204,15 +196,171 @@ footer p{
     padding-bottom: 40px;
 }
 
-.container-2 img{
+
+/*albums start here*//*//////////////////////////////////////*/
+
+
+.album-1{
+    background-image: url(/assets/images/lentra.jpg);
+    background-position: center;
+    background-size: contain;
     width: 320px;
     height: 320px;
+    margin-bottom: 30px;
+    margin-right: 2%;
 }
 
-.container-3 img{
+.album-2{
+    background-image: url(/assets/images/lil-dusty.jpg);
+    background-position: center;
+    background-size: contain;
     width: 320px;
     height: 320px;
+    margin-bottom: 30px;
+    margin-right: 2%;
 }
+
+.album-3{
+    background-image: url(/assets/images/lil-yachty.webp);
+    background-position: center;
+    background-size: contain;
+    width: 320px;
+    height: 320px;
+    margin-bottom: 30px;
+    margin-right: 2%;
+}
+
+.album-4{
+    background-image: url(/assets/images/killstation.jpg);
+    background-position: center;
+    background-size: contain;
+    width: 320px;
+    height: 320px;
+    margin-bottom: 30px;
+    margin-right: 2%;
+}
+
+.album-5{
+    background-image: url(/assets/images/boogz.jpg);
+    background-position: center;
+    background-size: contain;
+    width: 320px;
+    height: 320px;
+    margin-bottom: 30px;
+    margin-right: 2%;
+}
+
+.album-6{
+    background-image: url(/assets/images/eyedress.jpg);
+    background-position: center;
+    background-size: contain;
+    width: 320px;
+    height: 320px;
+    margin-bottom: 30px;
+    margin-right: 2%;
+}
+
+.album-7{
+    background-image: url(/assets/images/poorstacy.jpg);
+    background-position: center;
+    background-size: contain;
+    width: 320px;
+    height: 320px;
+    margin-bottom: 30px;
+    margin-right: 2%;
+}
+
+.album-8{
+    background-image: url(/assets/images/xxx.jpg);
+    background-position: center;
+    background-size: contain;
+    width: 320px;
+    height: 320px;
+    margin-bottom: 30px;
+    margin-right: 2%;
+}
+
+.album-9{
+    background-image: url(/assets/images/mac.jpg);
+    background-position: center;
+    background-size: contain;
+    width: 320px;
+    height: 320px;
+    margin-bottom: 30px;
+    margin-right: 2%;
+}
+
+.album-10{
+    background-image: url(/assets/images/gorillaz.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 320px;
+    height: 320px;
+    margin-bottom: 30px;
+    margin-right: 2%;
+}
+
+.album-11{
+    background-image: url(/assets/images/joy-again.jpg);
+    background-position: center;
+    background-size: contain;
+    width: 320px;
+    height: 320px;
+    margin-bottom: 30px;
+    margin-right: 2%;
+}
+
+.album-12{
+    background-image: url(/assets/images/sticky-fingers.jpg);
+    background-position: center;
+    background-size: contain;
+    width: 320px;
+    height: 320px;
+    margin-bottom: 30px;
+    margin-right: 2%;
+}
+
+
+.overlay{
+    width: 320px;
+    height: 320px;
+    background-color: rgba(0, 0, 0, 0.5);
+    opacity: 0;
+
+}
+
+.overlay:hover{
+    cursor: pointer;
+    opacity: 1;
+}
+
+.icon{
+    width: 60px;
+    height: 60px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 30px;
+    margin: 0 auto;
+}
+
+.content{
+    width: 320px;
+    height: 100px;
+    background-color: crimson;
+    margin-top: 50px;
+    padding-left: 25px;
+    color: white;
+    padding-top: 9px;
+    font-family: sans-serif;
+}
+
+.content h3, p{
+    margin: 0;
+}
+
+
+
+
+
 
 
 
@@ -455,7 +603,7 @@ form .button-1{
     margin-top: -17px;
 }
 
-.row h3{
+.playlist-container h3{
     padding-bottom: 40px;
 }
 
