@@ -3,7 +3,117 @@
 
 html, body{
     margin: 0;
-    background-color: #1b1c20;
+    background-color: #00526b;
+}
+
+input, select, textarea{
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 18px;
+}
+
+a{
+    font-family: 'Space Mono', monospace;
+    font-size: 18px;
+}
+
+h3{
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 36px;
+}
+
+h1{
+    font-family: 'Space Mono', monospace;
+    font-size: 72px;
+}
+
+h4{
+    font-family: 'Space Mono', monospace;
+    font-size: 24px;
+}
+
+h2{
+    font-family: 'Space Mono', monospace;
+    font-size: 48px;
+}
+
+p{
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 18px;
+}
+
+.content p{
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 12px;
+    padding-top: 6px;
+}
+
+.content h5{
+    font-family: 'Space Mono', monospace;
+    font-size: 18px;
+}
+
+.container-2 h4{
+    font-size: 34px;
+}
+
+.container-3 h4{
+    font-size: 34px;
+}
+
+.button-1 p{
+    font-family: 'Space Mono', monospace;
+    font-size: 24px;
+}
+
+.about h4{
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 24px;   
+}
+
+.about h1{
+    font-family: 'Space Mono', monospace;
+    font-size: 48px;
+}
+
+footer p{
+    font-family: 'Space Mono', monospace;
+    font-size: 18px;
+}
+
+.right-block ul h4{
+    font-family: 'Space Mono', monospace;
+    font-size: 18px;
+}
+
+.song-list .song h4{
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 18px;
+}
+
+.song h5{
+    font-family: 'Space Mono', monospace;
+    font-size: 14px;
+}
+
+.song p{
+    font-family: 'Space Mono', monospace;
+    font-size: 12px;
+}
+
+.title h5{
+    font-family: 'Space Mono', monospace;
+    font-size: 24px;
+}
+
+.title p{
+    font-family: 'Space Mono', monospace;
+    font-size: 14px;
+}
+
+.left-block h1{
+    font-family: 'Space Mono', monospace;
+    font-size: 64px;
+    margin-bottom: 70px;
 }
 
 header{
@@ -13,6 +123,7 @@ header{
     background-image: url("../assets/hero/mac2.jpg");
     background-position: bottom;
     background-size: fill;
+
 }
 
 nav ul{
@@ -22,9 +133,9 @@ nav ul{
 }
 
 nav li{
-    padding-top: 14px;
+    padding-top: 15px;
     display: inline-block; 
-    padding-left: 40px;
+    padding-left: 80px;
     color: black;
 }
 
@@ -33,24 +144,45 @@ nav li a{
     color: black;
 }
 
+nav input ::placeholder{
+    color: white;
+    border-color: white;
+}
+
+nav input{
+    background-color: #ffffff;
+    border-color: white;
+    border-width: 3px;
+    padding: 15px;
+    margin-top: 3px;
+}
+
 nav{
-    height: 50px;
+    height: 100px;
     width: 100%;
     padding-left: 50px;
     padding-top: 23px;
     padding-bottom: 60px;
 }
 
+.nav-1{    
+    background-color: rgba(0, 204, 255, 0.2);
+}
+
+
+
 .logo{
     float: left;
     width: 300px;
 }
 
-nav h3{
-    width: 150px;
-    display: inline-block;
-    height: 40px;
+.logo img{
+    width: 180px;
+    height: 58px;
+    margin-left: 30px
 }
+
+
 
 nav input{
     border-radius: 25px;
@@ -81,10 +213,11 @@ nav input{
     border-radius: 50px;
     text-align: center;
     font-weight: bold;
-    border: 4px solid black; 
-    padding-top: 18.5px;  
+    border: 4px solid rgb(255, 255, 255); 
+    padding-top: 12.5px;  
     display: inline-block;
     margin-right: 40px;
+    background-color: #30aebe;
 }
 
 .button-like{
@@ -133,14 +266,14 @@ nav input{
 .right-arrow{
     display: inline;
     float: right;
-    padding-top: 205px;
+    padding-top: 100px;
     padding-right: 30px;
 }
 
 .left-arrow{
     display: inline;
     float: right;
-    padding-top: 205px;
+    padding-top: 100px;
     padding-right: 20px;
 }
 
@@ -151,6 +284,7 @@ nav input{
     padding-right: 122px;
     padding-left: 122px;
     height: 426px;
+    margin-bottom: 40px;
 }
 
 .container-2 h4{
@@ -179,7 +313,14 @@ nav input{
 
 }
 
-footer{
+.p1{
+    color: white;
+    width: 100%;
+    padding-left: 122px;
+    padding-right: 215px;
+}
+
+.p2{
     color: white;
     width: 100%;
     padding-left: 122px;
@@ -188,12 +329,14 @@ footer{
 
 footer p{
     float: left;
+    padding-top: 20px;
 }
 
 .footer-icons{
     float: right;
     padding-left: 20px;
-    padding-bottom: 40px;
+    padding-bottom: 10px;
+    padding-bottom: 35px;
 }
 
 
@@ -324,9 +467,8 @@ footer p{
 .overlay{
     width: 320px;
     height: 320px;
-    background-color: rgba(0, 0, 0, 0.5);
     opacity: 0;
-
+    padding-top: 125px;
 }
 
 .overlay:hover{
@@ -337,23 +479,23 @@ footer p{
 .icon{
     width: 60px;
     height: 60px;
-    background-color: rgb(0, 0, 0);
     border-radius: 30px;
-    margin: 0 auto;
+    margin-bottom: 20px;
+    margin: 0 auto; 
 }
 
 .content{
     width: 320px;
-    height: 100px;
-    background-color: crimson;
-    margin-top: 50px;
+    height: 75px;
+background-color: rgba(0, 0, 0, 0.65);
+    margin-top: 60px;
     padding-left: 25px;
     color: white;
     padding-top: 9px;
     font-family: sans-serif;
 }
 
-.content h3, p{
+.content h5, p{
     margin: 0;
 }
 
@@ -383,10 +525,9 @@ footer p{
     height: 50px;
     width: 100%;
     padding-left: 50px;
-    padding-top: 25px;
+    padding-top: 23px;
     padding-bottom: 60px;
-    background-color: #d1d1d1;
-    margin-bottom: 90px;
+    color: white;
 }
 
 .nav-2 input{
@@ -396,26 +537,32 @@ footer p{
     padding: auto;
     width: 255px;
     margin-right: 50px;
+    color: white;
+}
+
+.nav-2 li a{
+    color: white;
 }
 
 .about-container{
-    margin-top: 175px;
+    margin-top: 115px;
     width: 100%;
     padding-left: 122px;
     padding-right: 122px;
-    margin-bottom: 125px;
+    margin-bottom: 105px;
 }
 
 .block-1{
     width: 49%;
-    background-color: rgb(198, 253, 212);
     margin-right: 1%;
+    color: white;
 }
 
 .block-2{
     width: 49%;
-    background-color: rgb(214, 255, 255);
     margin-left: 1%;
+    color: white;
+    background-color: #30aebe;
 }
 
 .about{
@@ -435,6 +582,9 @@ form input{
     width: 100%;
     margin-right: 30px;
     padding: 10px;
+    color: white;
+    background-color: #000;
+    border-color: white;
 }
 
 form select{
@@ -444,6 +594,9 @@ form select{
     width: 100%;
     margin-right: 30px;
     padding: 10px;
+    color: white;
+    background-color: #000;
+    border-color: white;
 }
 
 form textarea{
@@ -453,14 +606,23 @@ form textarea{
     width: 100%;
     margin-right: 30px;
     padding: 10px;
+    color: white;
+    background-color: #000;
+    border-color: white;
 }
 
 form .button-1{
     float: right;
     margin-right: 0;
-    margin-top: 15px;
+    margin-top: 35px;
     margin-bottom: 15px;
     width: 225px;
+    background-color: #000;
+    padding-top: 12px;
+}
+
+form ::placeholder{
+    color: white;
 }
 
 .about p{
@@ -487,22 +649,36 @@ form .button-1{
 /*playlist page css*/
 /*///////////////////////////////////////////////////////*/
 
+
+
+
 .playlist-container{
     width: 100%;
     padding-left: 122px;
     padding-right: 122px;
-    padding-bottom: 75px;
+    padding-bottom: 45px;
     padding-top: 60px;  
     margin: 0%;
+    color: white;
 }
 
 
     /*left block*/
 
 .left-block{
-    background-color: #a8dfff;
+    background-image:  url(/assets/images/skate.JPG);
+    background-position: center;
+    background-size: cover;
     width: 470px;
     height: 470px;
+    text-align: center;
+    align-items: center;
+    padding-top: 170px;
+}
+
+.left-block img{
+    width: 45px;
+    height: 45px;
 }
 
 
@@ -544,7 +720,7 @@ form .button-1{
     padding-right: 7px;
     padding-top: 7px;
     padding-bottom: 7px;
-    border-bottom: 1px solid #000;
+    border-bottom: 1px solid #ffffff;
     font-size: 20px;
 }
 
@@ -567,7 +743,7 @@ form .button-1{
     font-size: 14px;
 }
 
-.song_list{
+.song-list{
     width: 100%;
     height: 600px;
 }
@@ -585,19 +761,19 @@ form .button-1{
 .line{
     width: 100%;
     height: 5px;
-    background-color: lightgray;
+    background-color: rgb(255, 255, 255);
 }
 
 .line-fill{
     width: 30%;
     height: 5px;
-    background-color: #2b2b2b;
+    background-color: #30aebe;
 }
 
 .marker{
     width: 30px;
     height: 30px;
-    background-color: #2b2b2b;
+    background-color: #30aebe;
     border-radius: 20px;
     margin-left: 30%;
     margin-top: -17px;
@@ -608,31 +784,33 @@ form .button-1{
 }
 
 
-
 .button-container{
     width: 100%;
     height: 100px;
     padding-left: 122px;
     padding-right: 122px;
     margin-bottom: 30px;
+    color: white;
 }
 
 .small-cover{
     width: 70px;
     height: 70px;
-    background-color: #b9b9b9;
+    background-image: url(/assets/images/lil-yachty.webp);
+    background-position: center;
+    background-size: contain;
     margin-top: 20px;
 }
 
 .title{
-    width: 200px;
+    width: 300px;
     height: 70px;
     padding-top: 25px;
     padding-left: 20px;
 }
 
 .previous{
-    margin-left: 27%;
+    margin-left: 21.5%;
     width: 50px;
     height: 50px;
     padding-top: 25px;
@@ -664,6 +842,11 @@ form .button-1{
     float: right;
 }
 
+.content img{
+    float: right;
+    margin-top: -36px;
+    margin-right: 30px;
+}
 
 
 
